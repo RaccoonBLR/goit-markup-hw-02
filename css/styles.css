@@ -116,6 +116,7 @@
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   color: var(--main-cl-title);
   background-color: var(--accent-cl);
