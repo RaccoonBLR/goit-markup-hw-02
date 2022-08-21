@@ -116,6 +116,7 @@
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
+  font-family: inherit;
 
   color: var(--main-cl-title);
   background-color: var(--accent-cl);
@@ -233,6 +234,7 @@
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  font-family: inherit;
 
   background-color: var(--button-bg-cl);
 }
