@@ -26,9 +26,7 @@
 
   --header-bg-cl: #ffffff;
   --hero-footer-bg: #2f303a;
-  --aboutus-benefits-bg: #f5f5f5;
   --team-bg-cl: #f5f4fa;
-  --portfolio-bg-cl: #f5f5f5;
 
   --button-bg-cl: #f5f4fa;
 
@@ -48,7 +46,7 @@
 
 /* main */
 
-.page {
+body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
 }
@@ -77,25 +75,26 @@
   color: var(--logo-lowerhalf-cl);
 }
 
-.list .link {
+.list-item-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.list .link:hover,
-.list .link:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-cl);
 }
 
 .group {
+  font-weight: 500;
   color: var(--secondary-txt-cl);
 }
 
 /* hero-section */
 
-.hero {
+.hero-section {
   background-color: var(--hero-footer-bg);
 }
 
@@ -126,11 +125,7 @@
 
 /* benefits section */
 
-.section-benefits {
-  background-color: var(--aboutus-benefits-bg);
-}
-
-.section-benefits .title {
+.benefits-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -138,7 +133,7 @@
   letter-spacing: 0.03em;
 }
 
-.section-benefits .list-title {
+.benefits-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -146,7 +141,7 @@
   text-transform: uppercase;
 }
 
-.section-benefits .list-subtitle {
+.benefits-list-subtitle {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -156,11 +151,7 @@
 
 /* about section */
 
-.section-about {
-  background-color: var(--aboutus-benefits-bg);
-}
-
-.section-about .title {
+.about-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -170,11 +161,11 @@
 
 /* team section */
 
-.section-team {
+.team-section {
   background-color: var(--team-bg-cl);
 }
 
-.section-team .title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -182,14 +173,14 @@
   letter-spacing: 0.03em;
 }
 
-.section-team .team-name {
+.team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
-.section-team .team-position {
+.team-position {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -203,7 +194,7 @@
   background-color: var(--hero-footer-bg);
 }
 
-.footer .contacts-adress {
+.contacts-adress {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -212,11 +203,12 @@
   color: var(--mail-tel-cl);
 }
 
-.contacts-adress .location {
+.location {
   color: var(--contact-adress-cl);
 }
-.contacts-adress .location:hover,
-.contacts-adress .location:focus {
+
+.location:hover,
+.location:focus {
   color: var(--accent-cl);
 }
 
@@ -224,11 +216,11 @@
 
 /* main */
 
-.portfolio {
-  background-color: var(--portfolio-bg-cl);
+.portfolio-title {
+  visibility: hidden;
 }
 
-.portfolio .btn {
+.portfolio-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -239,20 +231,20 @@
   background-color: var(--button-bg-cl);
 }
 
-.portfolio .btn:hover,
-.portfolio .btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   color: var(--button-hover-cl);
   background-color: var(--accent-cl);
 }
 
-.portfolio .item-title {
+.portfolio-item-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.portfolio .item-subtitle {
+.portfolio-item-subtitle {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
